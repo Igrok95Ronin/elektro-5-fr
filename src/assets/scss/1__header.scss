@@ -1,0 +1,24 @@
+.header {
+    background: url(../img/electric-services-39.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__box {
+    padding: 85px 0;
+}
+.header__inner {
+    max-width: 768px;
+}
+.header__title {
+    font-weight: 700;
+    font-size: 76px;
+}
+.header__dscr {
+    color: #e02b20;
+    font-size: 29px;
+    line-height: 1.8em;
+    margin-top: 30px;
+}
+.btnLnk {
+    @include btnLink();
+}
