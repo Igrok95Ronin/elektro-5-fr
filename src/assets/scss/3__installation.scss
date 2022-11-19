@@ -1,0 +1,23 @@
+.installation {
+    padding: 54px 0;
+}
+.installation__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+}
+.installation__inner {
+}
+.installation__img {
+    width: 100%;
+}
+.installation__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2em;
+    padding: 30px 0;
+}
+.installation__dscr {
+    font-size: 18px;
+    line-height: 30px;
+}
