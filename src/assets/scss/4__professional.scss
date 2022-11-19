@@ -1,0 +1,41 @@
+.professional {
+}
+.container-padding {
+}
+.professional__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.professional__left {
+    background: url(../img/3electric-services-44.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.professional__right {
+    padding: 20px 12px;
+    max-width: 550px;
+}
+.professional__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1em;
+}
+.professional__ul {
+    padding: 30px 0;
+}
+.professional__li {
+    font-size: 20px;
+    padding: 20px 40px;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background: url(../icons/check-circle.svg);
+        width: 20px;
+        height: 20px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
