@@ -1,0 +1,41 @@
+.services {
+    background-color: #ffd600;
+    padding: 50px 0;
+}
+.services__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.services__left {
+}
+.services__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1em;
+}
+.services__ul {
+}
+.services__li {
+    font-size: 20px;
+    line-height: 3em;
+    padding-left: 40px;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background: url(../icons/check-circle.svg);
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0px;
+    }
+}
+.services__right {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.services__img {
+    width: 100%;
+}
