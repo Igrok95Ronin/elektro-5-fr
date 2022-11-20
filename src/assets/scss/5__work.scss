@@ -1,0 +1,11 @@
+.work {
+    padding: 50px 0;
+}
+.work__box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.work__img {
+    width: 100%;
+}
