@@ -1,0 +1,30 @@
+.ourProjects {
+    background-image: linear-gradient(180deg,rgba(255,255,255,0) 80%,#ffd600 80%);
+}
+.ourProjects__box {
+    background:url(../img/5electric-services-35.webp) #0047ff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+.ourProjects__inner {
+    padding-right: 100px;
+}
+.ourProjects__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+.ourProjects__ul {
+}
+.ourProjects__li {
+    color: #f0b800;
+    font-size: 30px;
+    padding: 0 0 30px;
+    font-weight: 700;
+}
