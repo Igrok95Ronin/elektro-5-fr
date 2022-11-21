@@ -10,7 +10,7 @@
 }
 .services__title {
     font-weight: 700;
-    font-size: 70px;
+    font-size: clamp(24px, 5vw, 70px);
     line-height: 1.1em;
 }
 .services__ul {

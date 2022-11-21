@@ -11,6 +11,7 @@
     background: url(../img/3electric-services-44.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: 30%;
 }
 .professional__right {
     padding: 20px 12px;
@@ -18,14 +19,14 @@
 }
 .professional__title {
     font-weight: 700;
-    font-size: 70px;
+    font-size: clamp(24px, 5vw, 70px);
     line-height: 1.1em;
 }
 .professional__ul {
     padding: 30px 0;
 }
 .professional__li {
-    font-size: 20px;
+    font-size: clamp(16px, 5vw, 20px);
     padding: 20px 40px;
     position: relative;
     &::before {

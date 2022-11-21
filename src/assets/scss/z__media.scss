@@ -1,0 +1,72 @@
+@media(max-width: 1024px) {
+    .header__inner {
+        max-width: 500px;
+    }
+    .installation__box {
+        gap: 30px;
+    }
+    .ourProjects__inner {
+        padding-right: 0;
+    }
+    .ourProjects__box {
+        background: #0047ff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30px 0 10px;
+        display: flex;
+        flex-direction: column;
+ 
+        align-items: center;
+    }
+}
+
+@media(max-width: 767px) {
+    .header__box {
+        padding: 10px 0;
+    }
+    .header__inner {
+        max-width: 305px;
+    }
+    .services__box,
+    .services__right,
+    .installation__box,
+    .work__box {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .installation__title {
+        padding: 30px 0 10px;
+    }
+    .professional__box {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .installation {
+        padding: 54px 0 20px;
+    }
+    .work {
+        padding: 30px 0;
+    }
+
+}
+
+@media(max-width: 425px) {
+    .header__inner {
+        max-width: 200px;
+    }
+    .services__li {
+        font-size: 16px;
+    }
+    .installation__dscr {
+        font-size: 14px;
+
+    }
+    .header__dscr {
+        margin-top: 16px;
+    }
+    .ourProjects__title,
+    .ourProjects__li {
+        font-size: 24px;
+    }
+
+}
